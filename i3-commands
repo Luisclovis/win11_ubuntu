@@ -1,0 +1,39 @@
+# Basic Navigation
+mod+Enter        # Open a new terminal
+mod+d            # Launch dmenu (application launcher)
+mod+number       # Switch to workspace number
+mod+arrow keys   # Change focus to another window
+mod+h/j/k/l      # Change focus to another window (vim-style)
+mod+Shift+arrow  # Move focused window in the direction
+mod+Shift+h/j/k/l # Move focused window (vim-style)
+mod+f            # Toggle fullscreen mode for the focused window
+mod+s            # Change to stacking layout
+mod+e            # Change to tabbed layout
+mod+w            # Change to default layout (split horizontally or vertically)
+
+# Window Management
+mod+v            # Split the workspace vertically
+mod+h            # Split the workspace horizontally
+mod+Shift+q      # Close the focused window
+mod+Shift+space  # Toggle floating mode for the focused window
+mod+space        # Toggle focus between tiling and floating windows
+
+# Workspace Management
+mod+Shift+number # Move the focused window to workspace number
+mod+Shift+r      # Restart i3 in place (preserves layout/session)
+mod+Shift+c      # Reload the i3 configuration file
+
+# Miscellaneous
+mod+Shift+e      # Exit i3
+mod+0            # Switch to workspace 10
+mod+Shift+0      # Move the focused window to workspace 10
+mod+r            # Enter resize mode (use arrow keys to resize windows)
+mod+Shift+r      # Restart i3 in-place (preserves your layout/session)
+mod+Shift+c      # Reload the i3 configuration file
+
+# Common Utilities
+mod+Shift+d      # Launch a graphical application using dmenu
+mod+p            # Open passmenu (password manager integration)
+mod+Shift+s      # Take a screenshot (requires scrot or similar)
+mod+Shift+p      # Take a screenshot of the focused window
+mod+x            # Lock the screen (requires i3lock or similar)
