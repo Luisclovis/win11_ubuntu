@@ -1,0 +1,1 @@
+apt list --installed # Lists all installed packages
