@@ -19,3 +19,18 @@ git clone https://github.com/johndoe/i3-config.git
 curl -O https://raw.githubusercontent.com/johndoe/i3-config/main/i3-commands.txt
 or
 wget https://raw.githubusercontent.com/johndoe/i3-config/main/i3-commands.txt
+
+- To push changes to the repository -
+git status # Files tracked to include in what will be committed
+git add foo.type # Add file to git repository if not already included
+git add -A # Add all files to git repository
+
+git config --global user.email "you@example.com" # In case of a fresh install of git
+git config --global user.name "Your Name" # In case of a fresh install of git
+
+git commit -m "commit label text"
+
+git status
+
+git remote set-url origin https://<chave>@github.com/<usr>/<repo> # ...
+git push origin main
