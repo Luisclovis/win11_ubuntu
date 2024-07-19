@@ -5,3 +5,7 @@
 
 	--- Something about keys? ---
 	pacman-key --refresh-keys # Do what?
+
+	--- What does it do? ---
+	pacman-key --populate archlinux
+	pacman-key --refresh-keys
