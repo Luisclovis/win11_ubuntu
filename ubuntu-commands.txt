@@ -1,0 +1,92 @@
+-- Starting Desktop Environments ---
+startx # Start the X Server
+exec startxfce4 # Start XFCE 4
+exec startkde # Start KDE
+exec startlxde # Start LXDE
+
+--- Displaying, Viewing, And Editing Files ---
+nano filename # Edit or create a text file with Nano
+less filename # View the contents of a file
+echo "text" > filename # Write text to a file
+locate filename # Locate a file
+cat filename # Display the contents of a file
+tail -f filename # View the last lines of a file continuously
+
+--- Adding Software ---
+sudo apt install package-name # Install a package
+sudo apt-cache search package-name # Search for a package
+sudo dpkg -i package.deb # Install a package from a .deb file
+
+--- Removing Packages ---
+sudo apt remove package-name # Uninstall a package
+sudo apt autoremove # Remove unnecessary packages
+sudo apt remove --purge package-name # Remove a package and its configuration files
+
+--- User Management ---
+login # Log into a user account
+logout # Log out of a user account
+sudo command # Execute a command with administrative privileges
+su # Switch to the root account
+passwd # Change a user password
+adduser username # Create a new user
+userdel username # Delete a user
+visudo # Edit the sudoers file
+groups username # List groups for a user
+
+--- Download Files ---
+wget url # Download a file
+curl url # Download a file and print contents to screen
+
+--- Drives and Directories ---
+mount /dev/sdX /mnt/dir # Mount a drive
+umount /mnt/dir # Unmount a drive
+cd directory # Enter a directory
+ls # List directory contents
+mkdir directory # Create a directory
+rmdir directory # Remove an empty directory
+rm -rf directory # Remove a directory with contents
+rm filename # Remove a file
+lsblk # List drives and mount points
+df # List filesystems and space usage
+fsck # Scan a drive for errors
+pwd # Print working directory
+
+--- Copying and Moving Files ---
+cp source destination # Copy files or directories
+mv source destination # Move files or directories
+
+--- Networking ---
+ifconfig # Display network interfaces (use 'ip' if not available)
+ip address # Display network interfaces and IP addresses
+ping host # Ping another machine
+ifup interface # Start a network interface
+ifdown interface # Stop a network interface
+whois domain # Get domain information
+netstat # Display network connections
+traceroute domain # Trace the route to a host
+
+--- Process Management ---
+crontab -e # Edit cron jobs
+top # Display running processes and resource usage
+vmstat # Display virtual memory statistics
+pkill process-name # Terminate processes
+pgrep process-name # List process IDs
+w # List logged-in users and their processes
+
+--- System Management ---
+shutdown -h now # Shut down the machine immediately
+shutdown -r now # Reboot the machine immediately
+reboot # Reboot the machine
+
+--- Miscellaneous ---
+dpkg-query -L package-name # Get the path of a command or program
+dmidecode # Get BIOS information
+sudo apt install lm-sensors # Install sensors package
+sensors # Check CPU temperature
+date # Display the date
+uptime # Check system uptime
+man command # Load the manual for a program
+tput clear # Clear the screen
+
+--- Delete directory and files ---
+sudo rm -rf <dir> # Delete a directory and files
