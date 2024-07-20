@@ -165,9 +165,9 @@ Remove a directory in Ubuntu:
 
 You can remove a directory using the ‘rmdir’ command if it is empty. In order to remove a directory that contains files, you can use the ‘rm’ command with the parameter ‘rf’ like this: ‘rm -rf plop‘. ‘plop’ is the directory name in this case.
 
-Remove a file in Ubuntu:
+Remove a file in Ubuntu: rm filename
+sudo rm -rf <dir> # Delete a directory and files
 
-rm filename
 List drives in Ubuntu and their mount points:
 
 lsblk
@@ -280,5 +280,3 @@ man programname
 Clear the screen:
 
 tput clear
-
-sudo rm -rf <dir> # Delete a directory and files

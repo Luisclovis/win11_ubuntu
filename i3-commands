@@ -37,3 +37,7 @@ mod+p            # Open passmenu (password manager integration)
 mod+Shift+s      # Take a screenshot (requires scrot or similar)
 mod+Shift+p      # Take a screenshot of the focused window
 mod+x            # Lock the screen (requires i3lock or similar)
+
+# Config File Utilities
+echo "exec --no-startup-id compton" >> ~/.config/i3/config # Writes exec of compton on the startup file of i3
+echo -e "\nexec --no-startup-id compton" >> ~/.config/i3/config # The "-e" adds backslashe escapes
